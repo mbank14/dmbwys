@@ -17,7 +17,7 @@ $data = mysqli_query($koneksi,"insert into vidio_tb values('$id','$title','$cate
     <link rel="stylesheet" href="bulma.css">
 </head>
 <body><div class="container">
-    <form action="tambahvidio.php" method="POST">
+    <form action="4_tambahvidio.php" method="POST">
     <div class="field">
         <div class="control">
         <label class="label">id</label>

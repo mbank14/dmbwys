@@ -27,8 +27,8 @@
             <div class="container">
                 <div class="navbar-menu">
                 <div class="field">
-                    <button class="button"><a href="tambahvidio.php" class="navbat-item">Add Video</a></button>
-                    <button class="button"><a href="tambahkat.php" class="navbat-item">Add Category</a></button>
+                    <button class="button"><a href="4_tambahvidio.php" class="navbat-item">Add Video</a></button>
+                    <button class="button"><a href="4_tambahkat.php" class="navbat-item">Add Category</a></button>
                 </div>
             </div>
             </div>
@@ -51,8 +51,8 @@
                 <p class="title"> <?php echo $d['id']; ?> </p>
                 <p class="title"> <?php echo $d['name']; ?> </p>
                 
-                <a href="viewkat.php?id=<?php echo $d['id'];?>" class="button is-danger" name="delete" > hapus</a>
-                <a href="updatekat.php?id=<?php echo $d['id'];?>" class="button is-primary " > edit</a>
+                <a href="4_viewkat.php?id=<?php echo $d['id'];?>" class="button is-danger" name="delete" > hapus</a>
+                <a href="4_updatekat.php?id=<?php echo $d['id'];?>" class="button is-primary " > edit</a>
               </article>
             </div> 
             <?php

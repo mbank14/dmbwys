@@ -16,7 +16,7 @@ $data = mysqli_query($koneksi,"insert into category_tb values('$id','$name')");
     <link rel="stylesheet" href="bulma.css">
 </head>
 <body> <div class="container">
-    <form method="POST" action="tambahkat.php">
+    <form method="POST" action="4_tambahkat.php">
         <div class="field ">
             <label class="label">id</label>
             <input class="input is-hovered" type="text" size="4" placeholder="masukan id" name="id">

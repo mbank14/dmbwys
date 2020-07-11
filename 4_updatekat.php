@@ -23,7 +23,7 @@ header("location:viewkat.php");
     <link rel="stylesheet" href="bulma.css">
 </head>
 <body> <div class="container">
-    <form method="POST" action="updatekat.php">
+    <form method="POST" action="4_updatekat.php">
     <input type="hidden" name="id" value="<?php echo $d['id']; ?>">
         <div class="field ">
             <label class="label">id</label>
